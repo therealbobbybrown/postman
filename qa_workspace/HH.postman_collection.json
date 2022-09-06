@@ -1,0 +1,213 @@
+{
+	"info": {
+		"_postman_id": "e17e29a5-c1cc-4282-8ea1-1242bc29238d",
+		"name": "HH",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20675064"
+	},
+	"item": [
+		{
+			"name": "Основные запросы",
+			"item": [
+				{
+					"name": "Тестирование пользовательского интерфейса",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.hh.ru/suggests/skill_set?text=Тестирование пользовательского интерфейса",
+							"protocol": "https",
+							"host": [
+								"api",
+								"hh",
+								"ru"
+							],
+							"path": [
+								"suggests",
+								"skill_set"
+							],
+							"query": [
+								{
+									"key": "text",
+									"value": "Тестирование пользовательского интерфейса"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Список станций метро в Нижнем Новгороде",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.hh.ru/metro/66",
+							"protocol": "https",
+							"host": [
+								"api",
+								"hh",
+								"ru"
+							],
+							"path": [
+								"metro",
+								"66"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Получение информации по МФЮА",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.hh.ru/educational_institutions?id=39108",
+							"protocol": "https",
+							"host": [
+								"api",
+								"hh",
+								"ru"
+							],
+							"path": [
+								"educational_institutions"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "39108"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Список доступных языков на HH",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.hh.ru/languages?header Cookie=PHPSESSID=r2t5uvjq435r4q7ib3vtdjq120",
+							"protocol": "https",
+							"host": [
+								"api",
+								"hh",
+								"ru"
+							],
+							"path": [
+								"languages"
+							],
+							"query": [
+								{
+									"key": "header Cookie",
+									"value": "PHPSESSID=r2t5uvjq435r4q7ib3vtdjq120"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Вспомогательные запросы",
+			"item": [
+				{
+					"name": "Определение ID Нижнего Новгорода",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.hh.ru/suggests/areas?text=Нижний Новгород&locale=RU ",
+							"protocol": "https",
+							"host": [
+								"api",
+								"hh",
+								"ru"
+							],
+							"path": [
+								"suggests",
+								"areas"
+							],
+							"query": [
+								{
+									"key": "text",
+									"value": "Нижний Новгород",
+									"description": "Нижний Новгород"
+								},
+								{
+									"key": "locale",
+									"value": "RU ",
+									"description": "русский "
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Определение ID МФЮА",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.hh.ru/suggests/educational_institutions?text=Московский финансово-юридический университет (Московская финансово-юридическая академия), Москва&locale=RU",
+							"protocol": "https",
+							"host": [
+								"api",
+								"hh",
+								"ru"
+							],
+							"path": [
+								"suggests",
+								"educational_institutions"
+							],
+							"query": [
+								{
+									"key": "text",
+									"value": "Московский финансово-юридический университет (Московская финансово-юридическая академия), Москва",
+									"description": "Московский финансово-юридический университет (Московская финансово-юридическая академия), Москва"
+								},
+								{
+									"key": "locale",
+									"value": "RU",
+									"description": "русский "
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host hh",
+			"value": "https://api.hh.ru",
+			"type": "string"
+		}
+	]
+}

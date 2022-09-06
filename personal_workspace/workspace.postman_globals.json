@@ -1,0 +1,26 @@
+{
+	"id": "88e2eec5-9a38-41e1-8225-f0c85af5768b",
+	"values": [
+		{
+			"key": "name",
+			"value": "Maria",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "url",
+			"value": "https://postman-echo.com",
+			"enabled": true
+		},
+		{
+			"key": "count",
+			"value": "10",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2022-09-06T20:58:59.570Z",
+	"_postman_exported_using": "Postman/9.31.0"
+}

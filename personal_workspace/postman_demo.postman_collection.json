@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "73aed13f-c44a-4258-a80d-6d48279be722",
+		"name": "postman_demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20675064"
+	},
+	"item": [
+		{
+			"name": "folder_demo",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://postman-echo.com/get?name={{name}}",
+							"protocol": "https",
+							"host": [
+								"postman-echo",
+								"com"
+							],
+							"path": [
+								"get"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "{{name}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://postman-echo.com/post?name={{name}}",
+							"protocol": "https",
+							"host": [
+								"postman-echo",
+								"com"
+							],
+							"path": [
+								"post"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "{{name}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Check name\", function(){",
+							"    pm.expect(pm.response.json().args.name).to.equal(\"Anna\");",
+							"});"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "New Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Check delay\", function(){\r",
+							"    pm.expect(pm.response.json().delay).to.equal(pm.collectionVariables.get(\"delay\"));\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/delay/:delay",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"delay",
+						":delay"
+					],
+					"variable": [
+						{
+							"key": "delay",
+							"value": "{{delay}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"pm.test(\"Check status\", function(){",
+					"    pm.response.to.have.status(200);",
+					"});"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "name",
+			"value": "Anna",
+			"type": "string"
+		},
+		{
+			"key": "delay",
+			"value": "2",
+			"type": "string"
+		}
+	]
+}

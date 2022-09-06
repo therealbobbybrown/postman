@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "45f2ea5f-d7eb-4ffa-ad72-da757bf10cb3",
+		"name": "Reqres",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20675064"
+	},
+	"item": [
+		{
+			"name": "LIST USERS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/users",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SINGLE USER",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/users/7",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE (создание своего пользователя)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"first name\": \"Zalifakis\",\r\n\"last name\": \"Bombomladze\",\r\n\"waist size\": \"XXXL\",\r\n\"sex\": \"null\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/users",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Проверка создания своего пользователя",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/users/653",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"653"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "https://reqres.in",
+			"type": "string"
+		}
+	]
+}

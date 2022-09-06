@@ -1,0 +1,471 @@
+{
+	"info": {
+		"_postman_id": "1d0b361f-66bd-4a0a-8bea-6c1a696ffb9b",
+		"name": "variables_tests",
+		"description": "Описание коллекции",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20675064"
+	},
+	"item": [
+		{
+			"name": "Example",
+			"item": [
+				{
+					"name": "New Request",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"console.log(\"Pre req - request\")"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"console.log(\"Tests - request\")"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://postman-echo.com/get",
+							"protocol": "https",
+							"host": [
+								"postman-echo",
+								"com"
+							],
+							"path": [
+								"get"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"console.log(\"Pre req - folder\")"
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"console.log(\"Tests - folder\")"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "https://postman-echo.com/get",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/get",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://postman-echo.com/delay/:delay",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/delay/:delay",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"delay",
+						":delay"
+					],
+					"variable": [
+						{
+							"key": "delay",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://postman-echo.com/post?name=anna",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/post?name=anna",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "anna"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://postman-echo.com/post?name=anna",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"type": "file",
+							"src": "/C:/Users/Пользователь/Desktop/all_desktop/QA/Теремок.json"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://postman-echo.com/post?name=anna",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "anna"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://postman-echo.com/post?name=anna Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"type": "file",
+							"src": "/C:/Users/Пользователь/Desktop/all_desktop/QA/Теремок.json"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://postman-echo.com/post?name={{name}}",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"post"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "{{name}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://postman-echo.com/put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Maria\",\r\n    \"surname\": \"Ivanova\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://postman-echo.com/put",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"put"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://postman-echo.com/patch",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"anna\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://postman-echo.com/patch",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"patch"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://postman-echo.com/delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "custom-header",
+						"value": "12",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://postman-echo.com/delete",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://yandex.ru/images/search?text=%D0%81%D0%B6%D0%B8%D0%BA%D0%B8&nl=1&source=morda&pos=29&rpt=simage&img_url=http%3A%2F%2Fproza.ru%2Fpics%2F2020%2F12%2F19%2F678.jpg&lr=213",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://yandex.ru/images/search?text=%D0%81%D0%B6%D0%B8%D0%BA%D0%B8&nl=1&source=morda&pos=29&rpt=simage&img_url=http%3A%2F%2Fproza.ru%2Fpics%2F2020%2F12%2F19%2F678.jpg&lr=213",
+					"protocol": "https",
+					"host": [
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"images",
+						"search"
+					],
+					"query": [
+						{
+							"key": "text",
+							"value": "%D0%81%D0%B6%D0%B8%D0%BA%D0%B8"
+						},
+						{
+							"key": "nl",
+							"value": "1"
+						},
+						{
+							"key": "source",
+							"value": "morda"
+						},
+						{
+							"key": "pos",
+							"value": "29"
+						},
+						{
+							"key": "rpt",
+							"value": "simage"
+						},
+						{
+							"key": "img_url",
+							"value": "http%3A%2F%2Fproza.ru%2Fpics%2F2020%2F12%2F19%2F678.jpg"
+						},
+						{
+							"key": "lr",
+							"value": "213"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://catsbri.com/img/exotic-pets/how-to-be-a-good-owner-of-a-hedgehog-with-pictures.-6.jpg",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://catsbri.com/img/exotic-pets/how-to-be-a-good-owner-of-a-hedgehog-with-pictures.-6.jpg",
+					"protocol": "https",
+					"host": [
+						"catsbri",
+						"com"
+					],
+					"path": [
+						"img",
+						"exotic-pets",
+						"how-to-be-a-good-owner-of-a-hedgehog-with-pictures.-6.jpg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://yandex.ru/unknown.html",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://yandex.ru/unknown.html",
+					"protocol": "https",
+					"host": [
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"unknown.html"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://postman-echo.com/head",
+			"request": {
+				"method": "HEAD",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/head",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"head"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://postman-echo.com/patch",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"anna\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://postman-echo.com/patch",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"patch"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"console.log(\"Pre req - collection\")"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"console.log(\"Tests - collection\")"
+				]
+			}
+		}
+	]
+}
