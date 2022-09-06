@@ -1,0 +1,40 @@
+{
+	"id": "fe69bf10-8d58-4340-bf24-cd9a60dde5b9",
+	"name": "Petstore",
+	"timestamp": "2022-09-06T21:55:12.965Z",
+	"collection_id": "20675064-9ff50b4f-bb74-4734-a688-121d181c5954",
+	"folder_id": 0,
+	"environment_id": "20675064-832d20bf-739a-4214-922d-a9f3b2a0008a",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "525e5756-d74e-4b27-bfda-2a49dbbc63d2",
+			"name": "STORE INVENTORY",
+			"url": "https://petstore.swagger.io/v2/store/inventory",
+			"time": 829,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				829
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 829,
+	"collection": {
+		"requests": [
+			{
+				"id": "525e5756-d74e-4b27-bfda-2a49dbbc63d2",
+				"method": "GET"
+			}
+		]
+	}
+}

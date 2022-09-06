@@ -1,0 +1,106 @@
+{
+	"id": "839fe53c-958e-458c-9e5e-e8c3f046ad7b",
+	"name": "Reqres",
+	"timestamp": "2022-09-06T21:55:24.109Z",
+	"collection_id": "20675064-45f2ea5f-d7eb-4ffa-ad72-da757bf10cb3",
+	"folder_id": 0,
+	"environment_id": "20675064-832d20bf-739a-4214-922d-a9f3b2a0008a",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3e524ac0-1f1c-4d94-b022-cb2a30499376",
+			"name": "LIST USERS",
+			"url": "https://reqres.in/api/users",
+			"time": 315,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				315
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a192d050-7a22-4662-bfb1-898605ef92bb",
+			"name": "SINGLE USER",
+			"url": "https://reqres.in/api/users/7",
+			"time": 64,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				64
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8a58a055-b14e-47ed-b55d-753a77c54bd6",
+			"name": "CREATE (создание своего пользователя)",
+			"url": "https://reqres.in/api/users",
+			"time": 151,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				151
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1779d9f2-90e8-46b2-be6b-4161090e2d21",
+			"name": "Проверка создания своего пользователя",
+			"url": "https://reqres.in/api/users/653",
+			"time": 161,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				161
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 691,
+	"collection": {
+		"requests": [
+			{
+				"id": "3e524ac0-1f1c-4d94-b022-cb2a30499376",
+				"method": "GET"
+			},
+			{
+				"id": "a192d050-7a22-4662-bfb1-898605ef92bb",
+				"method": "GET"
+			},
+			{
+				"id": "8a58a055-b14e-47ed-b55d-753a77c54bd6",
+				"method": "POST"
+			},
+			{
+				"id": "1779d9f2-90e8-46b2-be6b-4161090e2d21",
+				"method": "GET"
+			}
+		]
+	}
+}

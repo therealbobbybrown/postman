@@ -1,0 +1,129 @@
+{
+	"id": "f3b98130-4109-4236-9364-6089d82c3ff0",
+	"name": "postman_demo",
+	"timestamp": "2022-09-06T21:52:39.556Z",
+	"collection_id": "20675064-73aed13f-c44a-4258-a80d-6d48279be722",
+	"folder_id": 0,
+	"environment_id": "20675064-ba66dab3-97cd-42f8-8490-7a66bdfc3ff0",
+	"totalPass": 6,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "4afa1aa4-e8fc-48ca-9f7b-0f6d36923304",
+			"name": "New Request",
+			"url": "https://postman-echo.com/get?name=Anna",
+			"time": 167,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check status": true,
+				"Check name": true
+			},
+			"testPassFailCounts": {
+				"Check status": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				167
+			],
+			"allTests": [
+				{
+					"Check status": true,
+					"Check name": true
+				}
+			]
+		},
+		{
+			"id": "ee8d6799-5a74-42b9-9386-bca68f70b767",
+			"name": "New Request",
+			"url": "https://postman-echo.com/post?name=Anna",
+			"time": 173,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check status": true,
+				"Check name": true
+			},
+			"testPassFailCounts": {
+				"Check status": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				173
+			],
+			"allTests": [
+				{
+					"Check status": true,
+					"Check name": true
+				}
+			]
+		},
+		{
+			"id": "ca248cc9-36a0-42e7-bb11-1db1b3c29dce",
+			"name": "New Request",
+			"url": "https://postman-echo.com/delay/2",
+			"time": 2163,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check status": true,
+				"Check delay": true
+			},
+			"testPassFailCounts": {
+				"Check status": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check delay": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2163
+			],
+			"allTests": [
+				{
+					"Check status": true,
+					"Check delay": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2503,
+	"collection": {
+		"requests": [
+			{
+				"id": "4afa1aa4-e8fc-48ca-9f7b-0f6d36923304",
+				"method": "GET"
+			},
+			{
+				"id": "ee8d6799-5a74-42b9-9386-bca68f70b767",
+				"method": "POST"
+			},
+			{
+				"id": "ca248cc9-36a0-42e7-bb11-1db1b3c29dce",
+				"method": "GET"
+			}
+		]
+	}
+}

@@ -1,0 +1,150 @@
+{
+	"id": "d36ce969-fe5d-414e-b505-5fb6424dbe28",
+	"name": "HH",
+	"timestamp": "2022-09-06T21:54:53.427Z",
+	"collection_id": "20675064-e17e29a5-c1cc-4282-8ea1-1242bc29238d",
+	"folder_id": 0,
+	"environment_id": "20675064-832d20bf-739a-4214-922d-a9f3b2a0008a",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "5dd982e8-88e9-4441-b8d2-cd200408fed7",
+			"name": "Тестирование пользовательского интерфейса",
+			"url": "https://api.hh.ru/suggests/skill_set?text=%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D0%B0",
+			"time": 216,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				216
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7f0d919b-6f0a-4a46-84ee-3103c7c6840e",
+			"name": "Список станций метро в Нижнем Новгороде",
+			"url": "https://api.hh.ru/metro/66",
+			"time": 78,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				78
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "84f2a603-9c27-4540-9f99-1154484a05f5",
+			"name": "Получение информации по МФЮА",
+			"url": "https://api.hh.ru/educational_institutions?id=39108",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				66
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "eb66c188-eaf0-45a1-b6d0-00b762887194",
+			"name": "Список доступных языков на HH",
+			"url": "https://api.hh.ru/languages?header%20Cookie=PHPSESSID=r2t5uvjq435r4q7ib3vtdjq120",
+			"time": 53,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				53
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "47e42b7a-4249-467b-846e-277460d82801",
+			"name": "Определение ID Нижнего Новгорода",
+			"url": "https://api.hh.ru/suggests/areas?text=%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4&locale=RU%20",
+			"time": 73,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				73
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8ace0705-2979-498a-8b54-19f2bcef77d4",
+			"name": "Определение ID МФЮА",
+			"url": "https://api.hh.ru/suggests/educational_institutions?text=%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%20%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%BE-%D1%8E%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%20(%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F%20%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%BE-%D1%8E%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F%20%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F),%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&locale=RU",
+			"time": 50,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				50
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 536,
+	"collection": {
+		"requests": [
+			{
+				"id": "5dd982e8-88e9-4441-b8d2-cd200408fed7",
+				"method": "GET"
+			},
+			{
+				"id": "7f0d919b-6f0a-4a46-84ee-3103c7c6840e",
+				"method": "GET"
+			},
+			{
+				"id": "84f2a603-9c27-4540-9f99-1154484a05f5",
+				"method": "GET"
+			},
+			{
+				"id": "eb66c188-eaf0-45a1-b6d0-00b762887194",
+				"method": "GET"
+			},
+			{
+				"id": "47e42b7a-4249-467b-846e-277460d82801",
+				"method": "GET"
+			},
+			{
+				"id": "8ace0705-2979-498a-8b54-19f2bcef77d4",
+				"method": "GET"
+			}
+		]
+	}
+}

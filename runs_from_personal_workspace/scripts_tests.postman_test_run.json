@@ -1,0 +1,154 @@
+{
+	"id": "7a41a856-1c56-430e-b316-3a4af57b4edc",
+	"name": "scripts_tests",
+	"timestamp": "2022-09-06T21:53:21.462Z",
+	"collection_id": "20675064-a1292843-312c-405a-b58e-568ebb2a8a2b",
+	"folder_id": 0,
+	"environment_id": "20675064-ba66dab3-97cd-42f8-8490-7a66bdfc3ff0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e3a184a9-d6b2-4921-8df5-cc3ab75537db",
+			"name": "New Request 1",
+			"url": "https://postman-echo.com/get?param=5",
+			"time": 166,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				166
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5dcb73f5-9be6-4700-aa04-5c8a40fdce5e",
+			"name": "New Request 2",
+			"url": "https://postman-echo.com/get?param=5",
+			"time": 204,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				204
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0f82cb4d-ef97-4410-9f0f-90afef8994ab",
+			"name": "New Request 3",
+			"url": "https://postman-echo.com/get?param=5",
+			"time": 160,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				160
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "18ed14d7-8dfc-4351-b963-8bb0868ddb49",
+			"name": "New Request 4",
+			"url": "https://postman-echo.com/post",
+			"time": 183,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				183
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6d310ca3-c6a4-4a2c-9122-230d79998ae3",
+			"name": "New Request 5",
+			"url": "https://postman-echo.com/post",
+			"time": 178,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				178
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "958855e5-e3c5-4e70-9ebd-02e459914831",
+			"name": "New Request 6",
+			"url": "https://postman-echo.com/post?param2=value2&param3=value3",
+			"time": 173,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				173
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1064,
+	"collection": {
+		"requests": [
+			{
+				"id": "e3a184a9-d6b2-4921-8df5-cc3ab75537db",
+				"method": "GET"
+			},
+			{
+				"id": "5dcb73f5-9be6-4700-aa04-5c8a40fdce5e",
+				"method": "GET"
+			},
+			{
+				"id": "0f82cb4d-ef97-4410-9f0f-90afef8994ab",
+				"method": "GET"
+			},
+			{
+				"id": "18ed14d7-8dfc-4351-b963-8bb0868ddb49",
+				"method": "POST"
+			},
+			{
+				"id": "6d310ca3-c6a4-4a2c-9122-230d79998ae3",
+				"method": "POST"
+			},
+			{
+				"id": "958855e5-e3c5-4e70-9ebd-02e459914831",
+				"method": "POST"
+			},
+			{
+				"id": "c7cfaa2b-fdb3-4e3f-84eb-89e062c7b679",
+				"method": "POST"
+			}
+		]
+	}
+}

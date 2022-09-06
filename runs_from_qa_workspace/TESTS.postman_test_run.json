@@ -1,0 +1,80 @@
+{
+	"id": "df9e6fe7-9780-4f12-a60d-f2f028946653",
+	"name": "TESTS",
+	"timestamp": "2022-09-06T21:56:12.877Z",
+	"collection_id": "20675064-35569fe9-b576-46b1-ae57-e665107c2d04",
+	"folder_id": 0,
+	"environment_id": "20675064-832d20bf-739a-4214-922d-a9f3b2a0008a",
+	"totalPass": 2,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e0ccb360-ff92-49f4-a917-11c53c947684",
+			"name": "www.google.com",
+			"url": "http://www.google.com/",
+			"time": 205,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				205
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c9183988-40e9-4908-9362-45a94b8f1482",
+			"name": "www.amazon.com",
+			"url": "http://www.amazon.com/",
+			"time": 671,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				671
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 876,
+	"collection": {
+		"requests": [
+			{
+				"id": "e0ccb360-ff92-49f4-a917-11c53c947684",
+				"method": "GET"
+			},
+			{
+				"id": "c9183988-40e9-4908-9362-45a94b8f1482",
+				"method": "GET"
+			}
+		]
+	}
+}

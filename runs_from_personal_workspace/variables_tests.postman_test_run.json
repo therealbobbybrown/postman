@@ -1,0 +1,326 @@
+{
+	"id": "c8660528-27da-4156-8dd6-f6a7ea27ecf8",
+	"name": "variables_tests",
+	"timestamp": "2022-09-06T21:53:43.243Z",
+	"collection_id": "20675064-1d0b361f-66bd-4a0a-8bea-6c1a696ffb9b",
+	"folder_id": 0,
+	"environment_id": "20675064-ba66dab3-97cd-42f8-8490-7a66bdfc3ff0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3c88993b-1243-49c3-9380-8b5290da21bf",
+			"name": "New Request",
+			"url": "https://postman-echo.com/get",
+			"time": 178,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				178
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8938496f-9bae-4212-afb7-74a2291b45bc",
+			"name": "https://postman-echo.com/get",
+			"url": "https://postman-echo.com/get",
+			"time": 159,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				159
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f5292ffc-9072-4393-a0ea-2cdc789c9bd4",
+			"name": "https://postman-echo.com/delay/:delay",
+			"url": "https://postman-echo.com/delay/2",
+			"time": 2162,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2162
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d9601d89-572a-40ed-87f9-ba1817ba73e6",
+			"name": "https://postman-echo.com/post?name=anna",
+			"url": "https://postman-echo.com/post?name=anna",
+			"time": 169,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				169
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b9db84a8-e3af-419b-ae54-639d49fd07d2",
+			"name": "https://postman-echo.com/post?name=anna",
+			"url": "https://postman-echo.com/post?name=anna",
+			"time": 166,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				166
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "99b76c6d-8513-437f-a43d-f8d0f5e36fcc",
+			"name": "https://postman-echo.com/post?name=anna Copy",
+			"url": "https://postman-echo.com/post?name=Maria",
+			"time": 160,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				160
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "45971a34-a917-49f5-a62c-47e2504ffe29",
+			"name": "https://postman-echo.com/put",
+			"url": "https://postman-echo.com/put",
+			"time": 171,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				171
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "de042cde-5668-4e2d-82a9-e0a2fd365a33",
+			"name": "https://postman-echo.com/patch",
+			"url": "https://postman-echo.com/patch",
+			"time": 185,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				185
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0bc13d53-7032-4ad3-819d-fdd3cfbf35ca",
+			"name": "https://postman-echo.com/delete",
+			"url": "https://postman-echo.com/delete",
+			"time": 158,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				158
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "635e2de7-6e88-4dae-848e-e80882e01867",
+			"name": "https://yandex.ru/images/search?text=%D0%81%D0%B6%D0%B8%D0%BA%D0%B8&nl=1&source=morda&pos=29&rpt=simage&img_url=http%3A%2F%2Fproza.ru%2Fpics%2F2020%2F12%2F19%2F678.jpg&lr=213",
+			"url": "https://yandex.ru/images/search?text=%D0%81%D0%B6%D0%B8%D0%BA%D0%B8&nl=1&source=morda&pos=29&rpt=simage&img_url=http%3A%2F%2Fproza.ru%2Fpics%2F2020%2F12%2F19%2F678.jpg&lr=213",
+			"time": 434,
+			"responseCode": {
+				"code": 200,
+				"name": "Ok"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				434
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ebdf1939-cd4b-435c-aa21-114c408179be",
+			"name": "https://catsbri.com/img/exotic-pets/how-to-be-a-good-owner-of-a-hedgehog-with-pictures.-6.jpg",
+			"url": "https://catsbri.com/img/exotic-pets/how-to-be-a-good-owner-of-a-hedgehog-with-pictures.-6.jpg",
+			"time": 436,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				436
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9460e9c8-db63-467a-a55b-9d501cc6cbe1",
+			"name": "https://yandex.ru/unknown.html",
+			"url": "https://yandex.ru/unknown.html",
+			"time": 121,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				121
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "422d17fe-027a-4e43-9828-983f6917ab8d",
+			"name": "https://postman-echo.com/head",
+			"url": "https://postman-echo.com/head",
+			"time": 165,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				165
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "45809c1a-9455-49ba-af2a-4ac7d8a830b7",
+			"name": "https://postman-echo.com/patch",
+			"url": "https://postman-echo.com/patch",
+			"time": 550,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				550
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5214,
+	"collection": {
+		"requests": [
+			{
+				"id": "3c88993b-1243-49c3-9380-8b5290da21bf",
+				"method": "GET"
+			},
+			{
+				"id": "8938496f-9bae-4212-afb7-74a2291b45bc",
+				"method": "GET"
+			},
+			{
+				"id": "f5292ffc-9072-4393-a0ea-2cdc789c9bd4",
+				"method": "GET"
+			},
+			{
+				"id": "d9601d89-572a-40ed-87f9-ba1817ba73e6",
+				"method": "POST"
+			},
+			{
+				"id": "b9db84a8-e3af-419b-ae54-639d49fd07d2",
+				"method": "POST"
+			},
+			{
+				"id": "99b76c6d-8513-437f-a43d-f8d0f5e36fcc",
+				"method": "POST"
+			},
+			{
+				"id": "45971a34-a917-49f5-a62c-47e2504ffe29",
+				"method": "PUT"
+			},
+			{
+				"id": "de042cde-5668-4e2d-82a9-e0a2fd365a33",
+				"method": "PATCH"
+			},
+			{
+				"id": "0bc13d53-7032-4ad3-819d-fdd3cfbf35ca",
+				"method": "DELETE"
+			},
+			{
+				"id": "635e2de7-6e88-4dae-848e-e80882e01867",
+				"method": "GET"
+			},
+			{
+				"id": "ebdf1939-cd4b-435c-aa21-114c408179be",
+				"method": "GET"
+			},
+			{
+				"id": "9460e9c8-db63-467a-a55b-9d501cc6cbe1",
+				"method": "GET"
+			},
+			{
+				"id": "422d17fe-027a-4e43-9828-983f6917ab8d",
+				"method": "HEAD"
+			},
+			{
+				"id": "45809c1a-9455-49ba-af2a-4ac7d8a830b7",
+				"method": "PATCH"
+			}
+		]
+	}
+}

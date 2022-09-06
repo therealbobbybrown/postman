@@ -1,0 +1,55 @@
+{
+	"id": "60a23397-87b9-462a-a3e1-2edc10b381ee",
+	"name": "delay_tests",
+	"timestamp": "2022-09-06T21:52:11.042Z",
+	"collection_id": "20675064-f2b96bc9-25d4-4d47-8bd5-d95086fef94a",
+	"folder_id": 0,
+	"environment_id": "20675064-ba66dab3-97cd-42f8-8490-7a66bdfc3ff0",
+	"totalPass": 2,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "26bcee06-e69e-4758-ba6b-0aa3d58a4b0a",
+			"name": "New Request",
+			"url": "https://postman-echo.com/delay/2",
+			"time": 2771,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check status": true,
+				"Check delay": true
+			},
+			"testPassFailCounts": {
+				"Check status": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check delay": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2771
+			],
+			"allTests": [
+				{
+					"Check status": true,
+					"Check delay": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2771,
+	"collection": {
+		"requests": [
+			{
+				"id": "26bcee06-e69e-4758-ba6b-0aa3d58a4b0a",
+				"method": "GET"
+			}
+		]
+	}
+}
